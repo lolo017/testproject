@@ -23,8 +23,9 @@ public class RSAEncrypt {
 			String choice=sc.next();
 			if (choice.equals("1")) {
 				System.out.println("请输入要加密的字符串：");
-
+				
 				String str = sc.next();
+				System.out.println(str);
 				String[] myUserPass = { str };
 				for (int i = 0; i < myUserPass.length; i++) {
 //					dp.testDecrypt(dp.testEncrypt(myUserPass[i]));
